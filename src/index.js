@@ -37,7 +37,7 @@ import './styles.css';
 // localStorage.getItem('key')
 // console.log(localStorage);
 // localStorage.removeItem('key')
-
+// ======================================================
 const checkbox = document.querySelector('.checkbox');
 const body = document.querySelector('body');
 // console.log(checkbox);
