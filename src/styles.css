@@ -24,3 +24,16 @@ body {
 .checkbox-ligth{
   background-color: rgb(231, 231, 238);
 }
+.posts{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 700px;
+  margin: 0 auto;
+  list-style: none;
+}
+.news-item{
+  width: 300px;
+  text-align: center;
+  border: 1px solid palevioletred;
+}
