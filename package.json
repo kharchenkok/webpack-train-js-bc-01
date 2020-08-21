@@ -51,6 +51,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "faker": "^4.1.0",
     "handlebars": "^4.7.6",
     "pnotify": "^5.1.2"
   }
