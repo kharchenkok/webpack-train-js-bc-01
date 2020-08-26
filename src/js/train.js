@@ -404,3 +404,18 @@
 
 
 // ============================17-08-2020=================================================
+import * as basicLightbox from "basiclightbox";
+import "basiclightbox/dist/basicLightbox.min.css";
+
+const startBtn = document.querySelector('.start')
+function openModal(e){
+    const instance = basicLightbox.create(`
+        <video controls>
+            <source src="https://basiclightbox.electerious.com/assets/videos/video.mp4">
+        </video>
+    `)
+    
+    instance.show()
+}
+
+startBtn.addEventListener('click', openModal)
